@@ -32,7 +32,7 @@ O principal objetivo é solidificar a base teórica e prática em Java, dominand
 
 * **Linguagem de Programação:** Java
 * **Paradigma:** Orientação a Objetos (POO)
-* **Ambiente de Desenvolvimento:** *[Insira aqui sua IDE, ex: IntelliJ IDEA / VS Code / Eclipse]*
+* **Ambiente de Desenvolvimento:** *VScode*
 * **Gerenciador de Versões:** Git e GitHub
 
 ---
