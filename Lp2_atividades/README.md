@@ -1,4 +1,3 @@
-```markdown
 # <font color="#007BFF">LP2 - Orientação a Objetos com Java</font>
 
 Bem-vindo ao meu repositório de Linguagem de Programação 2 (LP2). Este espaço foi criado para centralizar todos os códigos, laboratórios e projetos desenvolvidos ao longo da disciplina, focando na aplicação prática do paradigma de Programação Orientada a Objetos (POO) utilizando a linguagem Java.
