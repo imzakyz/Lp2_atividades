@@ -2,6 +2,7 @@ package Atividade1905.Televisao;
 
 public class Tv {
 
+    // Atributos da TV
     private int polegadas;
     private int volume;
     private int canal;
@@ -9,6 +10,7 @@ public class Tv {
     private String marca;
     private boolean ligada;
 
+    // Construtor da TV, onde é possível definir as polegadas, o voltage e a marca da TV. O volume inicia em 5, o canal inicia em 1 e a TV inicia desligada.
     public Tv(int polegadas, int voltage, String marca){
         this.polegadas = polegadas;
         this.voltage = voltage;
@@ -18,17 +20,26 @@ public class Tv {
         this.ligada = false;
     }
 
+    // Métodos da TV
+
+
+    // Quando ativado, o método verifica se a Tv está ligada.
+    // Se a TV estiver desligada, ela é ligada e o consumo é calculado multiplicando o voltage pelo número de polegadas.
     public void ligarTv(){
         this.ligada = true;
         System.out.println("A TV " + this.marca + " está ligada.");
         System.out.println("O consumo da TV" + this.marca + " é de " + (this.voltage * this.polegadas) + " watts.");
     }
 
+    // Quando ativado, o método verifica se a Tv está ligada.
+    // Se a TV estiver ligada, ela é desligada.
     public void desligarTv(){
         this.ligada = false;
         System.out.println("A TV " + this.marca + " está desligada.");
     }
 
+    // Quando ativado, o método verifica se a Tv está ligada.
+    // Se a TV estiver ligada, o volume é aumentado em 1. O volume máximo é 10.
     public void aumentarVolume(){
         if (this.ligada == true){
             this.volume++;
@@ -41,6 +52,8 @@ public class Tv {
         }
     }
 
+    // Quando ativado, o método verifica se a Tv está ligada.
+    // Se a TV estiver ligada, o volume é diminuído em 1. O volume mínimo é 1.
     public void diminuirVolume(){
         if (this.ligada == true){
             this.volume--;
@@ -53,6 +66,8 @@ public class Tv {
         }
     }
 
+    // Quando ativado, o método verifica se a Tv está ligada.
+    // Se a TV estiver ligada, o canal é aumentado em 1. O canal mínimo é 1.
     public void subirCanal(){
         if (this.ligada == true){
             this.canal++;
@@ -62,6 +77,8 @@ public class Tv {
         }
     }
 
+    // Quando ativado, o método verifica se a Tv está ligada.
+    // Se a TV estiver ligada, o canal é diminuído em 1. O canal mínimo é 1.
     public void descerCanal(){
         if (this.ligada == true){
             this.canal--;
