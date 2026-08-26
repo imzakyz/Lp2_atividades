@@ -1,3 +1,5 @@
+package Atividade0206;
+
 public class Calculo{
     // variavel para guardar o total do salário
     private double totalSalario;
